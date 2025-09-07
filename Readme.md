@@ -1,42 +1,34 @@
-Music App
+# Music App
 
 A modern micro-frontend music application built with React and Vite, featuring authentication and a comprehensive music library interface.
 
-🎵 Features
+## 🎵 Features
 
-Secure login with role-based access (User/Admin)
+- Secure login with role-based access (User/Admin)  
+- Micro-frontend architecture with separate Music Library component  
+- Modern responsive UI with Material-UI  
+- Music browsing, filtering, and admin management  
 
-Micro-frontend architecture with separate Music Library component
+## 🏗 Architecture
 
-Modern responsive UI with Material-UI
+### Main App (main-app/)
+- Port: 5175  
+- Handles authentication, layout, and role-based routing  
+- Integrates Music Library micro-frontend  
 
-Music browsing, filtering, and admin management
+### Music Library (Music-Library/)
+- Port: 5174  
+- Standalone music browsing component  
+- Admin-specific functionalities  
 
-🏗 Architecture
-Main App (main-app/)
+## 🚀 Getting Started
 
-Port: 5175
+### Prerequisites
+- Node.js (v16+)  
+- npm or yarn  
 
-Handles authentication, layout, and role-based routing
-
-Integrates Music Library micro-frontend
-
-Music Library (Music-Library/)
-
-Port: 5174
-
-Standalone music browsing component
-
-Admin-specific functionalities
-
-🚀 Getting Started
-Prerequisites
-
-Node.js (v16+)
-
-npm or yarn
-
-Installation
+### Installation
+``bash
 git clone <repository-url>
 cd Music
 
