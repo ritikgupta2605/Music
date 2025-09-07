@@ -57,9 +57,9 @@ Music Library: https://music-kappa-woad.vercel.app/
 
 🔐 Demo Credentials
 
-Admin: admin@example.com / Admin123
+Admin: admin / admin123
 
-User: user@example.com / User123
+User: user / user123
 
 🧩 Micro-Frontend & Role-Based Auth
 
